@@ -28,9 +28,9 @@ const index = () => {
         <p className="text-lg">
           Feel free to reach out to us for any inquiries or collaborations.
         </p>
-        <a href="/contact" className="text-blue-500 hover:underline">
+        <Link href="/contact" className="text-blue-500 hover:underline">
           Contact
-        </a>
+        </Link>
       </section>
     </div>
   );

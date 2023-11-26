@@ -9,9 +9,9 @@ const Header = () => {
       
       <nav>
         <ul className="flex">
-          <li className="mr-4"><a href="/" className="text-white">Home</a></li>
-          <li className="mr-4"><a href="/about" className="text-white">About</a></li>
-          <li><a href="/contact" className="text-white">Contact</a></li>
+          <li className="mr-4"><Link href="/" className="text-white">Home</Link></li>
+          <li className="mr-4"><Link href="/about" className="text-white">About</Link></li>
+          <li><Link href="/contact" className="text-white">Contact</Link></li>
         </ul>
       </nav>
     </header>

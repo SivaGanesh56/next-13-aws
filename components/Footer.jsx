@@ -1,4 +1,5 @@
 // Footer.js
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -10,9 +11,9 @@ const Footer = () => {
       <div>
         <p>Follow us on:</p>
         <ul className="flex">
-          <li className="mr-4"><a href="https://twitter.com" className="text-white">Twitter</a></li>
-          <li className="mr-4"><a href="https://facebook.com" className="text-white">Facebook</a></li>
-          <li><a href="https://instagram.com" className="text-white">Instagram</a></li>
+          <li className="mr-4"><Link href="https://twitter.com" className="text-white">Twitter</Link></li>
+          <li className="mr-4"><Link href="https://facebook.com" className="text-white">Facebook</Link></li>
+          <li><Link href="https://instagram.com" className="text-white">Instagram</Link></li>
         </ul>
       </div>
     </footer>
